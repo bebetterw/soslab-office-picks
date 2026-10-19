@@ -2,7 +2,7 @@
 
 간식·음료·커피·사무용품·공용비품 49개를 모은 웹사이트입니다.
 
-[게시된 사이트 열기](https://soslab-office-picks.woongwangking.chatgpt.site)
+[게시된 사이트 열기](https://bebetterw.github.io/soslab-office-picks/)
 
 ## 기능
 
@@ -17,18 +17,18 @@
 별도 설치나 빌드 없이 정적 파일로 실행할 수 있습니다.
 
 ```sh
-python3 -m http.server 8000 --directory dist
+python3 -m http.server 8000 --directory docs
 ```
 
 브라우저에서 `http://localhost:8000`을 엽니다. 상품 목록을 불러오기 위해 파일을 직접 열지 말고 위 서버를 사용하세요.
 
 ## 파일 구성
 
-- `dist/index.html`: 페이지 구성
-- `dist/style.css`: 화면 디자인
-- `dist/app.js`: 검색, 필터, 즐겨찾기, 상세 보기
-- `dist/products.json`: 상품 정보와 출처
-- `dist/images/`: 제품 사진 49개
+- `docs/index.html`: 페이지 구성
+- `docs/style.css`: 화면 디자인
+- `docs/app.js`: 검색, 필터, 즐겨찾기, 상세 보기
+- `docs/products.json`: 상품 정보와 출처
+- `docs/images/`: 제품 사진 49개
 
 ## 참고
 
@@ -36,4 +36,4 @@ python3 -m http.server 8000 --directory dist
 
 제품 사진과 브랜드에 관한 권리는 각 권리자에게 있습니다. 사진 출처는 각 상품의 상세 화면과 `products.json`에 기록되어 있습니다.
 
-이 저장소는 게시된 사이트의 소스를 옮긴 사본입니다. GitHub 수정 내용이 기존 Sites 사이트에 자동 반영되지는 않습니다.
+GitHub Pages는 `main` 브랜치의 `docs/` 폴더를 게시합니다. 변경 사항을 푸시하면 공개 사이트에 반영됩니다. 기존 Sites 사이트와는 별도로 운영됩니다.
